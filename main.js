@@ -14,7 +14,20 @@ menu.innerHTML = `<div style="width:240px; left: 1px; top: 1px; background-color
 <br><br>
 <h1 style="font-size: 12px; font-style: normal !important; color: white !important;"></h1>
 </div>`
+/* begin goofy ahh event listener to hide or show*/
+// Add event listener to document to toggle menu on key press
+document.addEventListener("keydown", (e) => {
+  if (e.key === "h" || e.key === "H") {
+    waldron();
+  }
+});
 
+// Toggle menu visibility
+function waldron() {
+  menu.style.display = menu.style.display === "none"? "block" : "none";
+}
+
+/* end event listener */
 // minified drag element code
 function dragElement(e){var t=0,n=0,o=0,r=0;function s(e){(e=e||window.event).preventDefault(),o=e.clientX,r=e.clientY,document.onmouseup=i,document.onmousemove=c}function c(s){(s=s||window.event).preventDefault(),t=o-s.clientX,n=r-s.clientY,o=s.clientX,r=s.clientY,e.style.top=e.offsetTop-n+"px",e.style.left=e.offsetLeft-t+"px"}function i(){document.onmouseup=null,document.onmousemove=null}document.getElementById(e.id+"header")?document.getElementById(e.id+"header").onmousedown=s:e.onmousedown=s}
 
