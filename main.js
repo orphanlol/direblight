@@ -1,7 +1,7 @@
 var menu = document.createElement("div");
 menu.innerHTML = `<div style="width:240px; left: 1px; top: 1px; background-color: #282828EB; color: white; outline: transparent 1px; position:absolute; z-index: 99999; border-radius: 10px;">
 <div id="gui">
-</div> <h1 style="font-size: 32px;">rekon</h1>
+</div> <h1 style="font-size: 32px;">direblight</h1>
 <br>
 <h3 style="font-size: 19px; font-style: normal !important; color: white !important;">Skipper</h3>
 <button onclick="skip()">Skip</button>
