@@ -1,7 +1,7 @@
 var menu = document.createElement("div");
 menu.innerHTML = `<div style="width:240px; left: 1px; top: 1px; background-color: #282828EB; color: white; outline: transparent 1px; position:absolute; z-index: 99999; border-radius: 10px;">
 <div id="gui">
-</div> <h1 style="font-size: 32px;">Fireflight</h1>
+</div> <h1 style="font-size: 32px;">rekon</h1>
 <br>
 <h3 style="font-size: 19px; font-style: normal !important; color: white !important;">Skipper</h3>
 <button onclick="skip()">Skip</button>
@@ -13,8 +13,11 @@ menu.innerHTML = `<div style="width:240px; left: 1px; top: 1px; background-color
 <button onclick="iframe()">Get</button>
 <br><br>
 <h1 style="font-size: 12px; font-style: normal !important; color: white !important;"></h1>
+<br>
+<h5 style="font-size: 12px; font-style: normal !important; color: white !important;">this gui was originally made by <a href="https://github.com/simplyplu">simplyplu</h5>
+<h5 style="font-size: 12px; font-style: normal !important; color: white !important;">updated and modified by <a href="https://github.com/orphanlol">orphanlol</h5>
 </div>`
-/* begin goofy ahh event listener to hide or show*/
+/* begin goofy ahh event listener to hide or show */
 // Add event listener to document to toggle menu on key press
 document.addEventListener("keydown", (e) => {
   if (e.key === "h" || e.key === "H") {
