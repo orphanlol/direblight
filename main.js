@@ -14,8 +14,8 @@ menu.innerHTML = `<div style="width:240px; left: 1px; top: 1px; background-color
 <br><br>
 <h1 style="font-size: 12px; font-style: normal !important; color: white !important;"></h1>
 <br>
-<h5 style="font-size: 12px; font-style: normal !important; color: white !important;">this gui was originally made by <a href="https://github.com/simplyplu">simplyplu</h5>
-<h5 style="font-size: 12px; font-style: normal !important; color: white !important;">updated and modified by <a href="https://github.com/orphanlol">orphanlol</h5>
+<h5 style="font-size: 12px; font-style: normal !important; color: white !important;">this gui was originally made by <a href="https://github.com/simplyplu">simplyplu</a></h5>
+<h5 style="font-size: 12px; font-style: normal !important; color: white !important;">updated and modified by <a href="https://github.com/orphanlol">orphanlol</a></h5>
 </div>`
 /* begin goofy ahh event listener to hide or show */
 // Add event listener to document to toggle menu on key press
@@ -37,7 +37,7 @@ function dragElement(e){var t=0,n=0,o=0,r=0;function s(e){(e=e||window.event).pr
 // specifies what element to drag
 dragElement(menu.firstElementChild);
 document.body.appendChild(menu);
-
+/* the following is former skipper stuff
 // runs modified app 21 chunk on startup, required for skipper to work
 fetch('https://raw.githubusercontent.com/notplu/Nullify/main/Data/appchunk/app-21.chunk.js').then(r => r.text()).then(r => eval(r))
 
@@ -45,7 +45,13 @@ fetch('https://raw.githubusercontent.com/notplu/Nullify/main/Data/appchunk/app-2
 function skip() {
     p1(prompt('What score do you want?'))
 }
+*/
 
+// skipper placeholder
+function skip() {
+  prompt('you ed?');
+  alert('the skipper in this was patched a while ago')
+}
 // farmer code
 function farm() {
     alert('Farmer has been enabled!');
@@ -55,6 +61,6 @@ function farm() {
 // iframe code
 function iframe() {
     alert('This opens a new lesson that you can click the wrong answers and see the correct ones. ');
-    alert('YOU HAVE TO OPEN THIS IN A LESSON OR IT DOES NOT FETCH.');
+    alert('YOU HAVE TO OPEN THIS IN A LESSON OR IT DOES NOT FETCH THE LESSON IFRAME.');
     open(html5Iframe.src);
 }
