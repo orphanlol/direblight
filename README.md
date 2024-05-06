@@ -1,4 +1,4 @@
-<h1 align="center">rekon</h1>
+<h1 align="center">blight</h1>
 <h3 align="center">basic i-Ready Menu for starters (fireflight but changed) :trollface:</h3>
 <h3 align="center">YOU are only allowed to use this WITH CREDIT. If you do not add credit, we have permission to take it down. </h3>
 <p align="center">Updated and "made" (not really) by the Insexer Team</a>
